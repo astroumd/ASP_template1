@@ -1,4 +1,8 @@
+# ASP template1
+
 These files can be used to get you quickly started on overleaf.
+
+## Background
 
 
 If you're working on a research project with an undergrad this
@@ -32,25 +36,30 @@ any students you are working with.
 
 # Files:
 
-ASPCS-MSWord-template.doc
-Makefile
-README.astroumd
-aasjournal.bst
-asp2021.sty
-asp2023.sty
-aspauthor.tex
-copyrightform.doc
-main.bib
-main.tex
-plot1.png
+     Makefile
+     README.astroumd
+     aasjournal.bst
+     asp2021.sty
+     asp2023.sty
+     aspauthor.tex
+     copyrightform.doc
+     main.bib
+     main.tex
+     plot1.png [iff]
 
 
 ## How to bootstrap on overleaf
 
 You can of course upload the files mentioned here, but my personal preference is
-to create an template "new project" on overleaf, then git the "git" reference
-and "git clone this reference locally to your laptop. Then copy these files
-in this 
+to create an template "new project" on overleaf, then grab the zip file from
+this repo, e.g.
+
+     wget https://github.com/astroumd/ASP_template1/archive/refs/heads/main.zip
+
+and in overleaf.com
+
+    New Project -> Upload Project -> Selet a .zip file
+
 
 
 ## modifications from the ASP distribution
