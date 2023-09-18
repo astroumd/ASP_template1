@@ -17,8 +17,7 @@ An example paper by a UMD Astronomy student:
       http://www.aspbooks.org/publications/525/057.pdf
 
 which in ADS will show up as
-
-      https://ui.adsabs.harvard.edu/abs/2020ASPC..525...57H
+https://ui.adsabs.harvard.edu/abs/2020ASPC..525...57H
 
 
 The Astronomical Society of the Pacific Conference Series is now
@@ -70,7 +69,7 @@ of the overleaf repo:
 
      Menu -> Git
 
-after which the uniq URL can be copied locally to your laptop
+after which the uniq URL can be copied locally to your laptop, for example
 
      git clone https://git.overleaf.com/6508854af54fe71911206296 MyPaper
 
