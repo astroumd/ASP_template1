@@ -1,0 +1,59 @@
+These files can be used to get you quickly started on overleaf.
+
+
+If you're working on a research project with an undergrad this
+semester, I'd like to encourage you to consider having them write up
+their results to publish in the ASP's "Compendium of Undergraduate
+Research in Astronomy and Space Science", which is free and
+online-only.  Writing the paper would be great experience for
+students.  Please see my email below for more information.
+
+An example paper by a UMD Astronomy student:
+
+      http://www.aspbooks.org/publications/525/057.pdf
+
+
+The Astronomical Society of the Pacific Conference Series is now
+publishing a free online volume of undergraduate student research
+called "Compendium of Undergraduate Research in Astronomy and Space
+Science". The 4 - 6 page papers are written by undergrad researchers
+with their research supervisors as co-authors. As part of the ASP's
+Conference Series, the papers are posted within the NASA ADS so they
+may be accessed and cited. The papers are not refereed, so there is no
+extended time line of back-and-forth communication with a referee -
+the research supervisor is expected to ensure a reasonable scientific
+process and result.
+
+This is a`great opportunity for students to reflect on the scientific
+importance of their research and to practice scientific writing. A
+short paper seems like an excellent ending for a summer or
+semester-long research project, so I strongly you to consider this for
+any students you are working with.
+
+# Files:
+
+ASPCS-MSWord-template.doc
+Makefile
+README.astroumd
+aasjournal.bst
+asp2021.sty
+asp2023.sty
+aspauthor.tex
+copyrightform.doc
+main.bib
+main.tex
+plot1.png
+
+
+## How to bootstrap on overleaf
+
+You can of course upload the files mentioned here, but my personal preference is
+to create an template "new project" on overleaf, then git the "git" reference
+and "git clone this reference locally to your laptop. Then copy these files
+in this 
+
+
+## modifications from the ASP distribution
+
+- added a main.tex and main.bib with a UMD example to simplify your morphing
+- added a Makefile, so "make" should do the job of creating the main.pdf file

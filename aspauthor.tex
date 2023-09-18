@@ -1,0 +1,161 @@
+% This is the aspauthor.tex LaTeX file
+% Copyright 2021, Astronomical Society of the Pacific Conference Series
+% Revision:  29 November 2021
+
+% To compile, at the command line positioned at this folder, type:
+% pdflatex aspauthor
+% pdflatex aspauthor
+% This will create a file called aspauthor.pdf.
+
+\documentclass[11pt,twoside]{article}
+\usepackage{./asp2021}
+
+\aspSuppressVolSlug
+\resetcounters
+
+\bibliographystyle{asp2021}
+
+\markboth{Author1, Author2, and Author3}{Shortened Title Here}
+
+\begin{document}
+
+\title{ASP Author Template}
+\author{Sample~Author1,$^1$ Sample~Author2,$^2$ and Sample~Author3$^3$
+\affil{$^1$Institution Name, Institution City, State/Province, Country; \email{AuthorEmail@email.edu}}
+\affil{$^2$Institution Name, Institution City, State/Province, Country; \email{AuthorEmail@email.edu}}
+\affil{$^3$Institution Name, Institution City, State/Province, Country; \email{AuthorEmail@email.edu}}}
+
+% This section is for ADS Processing.  There must be one line per author.
+\paperauthor{Sample~Author1}{Author1Email@email.edu}{ORCID_Or_Blank}{Author1 Institution}{Author1 Department}{City}{State/Province}{Postal Code}{Country}
+\paperauthor{Sample~Author2}{Author2Email@email.edu}{ORCID_Or_Blank}{Author2 Institution}{Author2 Department}{City}{State/Province}{Postal Code}{Country}
+\paperauthor{Sample~Author3}{Author3Email@email.edu}{ORCID_Or_Blank}{Author3 Institution}{Author3 Department}{City}{State/Province}{Postal Code}{Country}
+
+\begin{abstract}
+This is the Astronomical Society of the Pacific (ASP) 2021 author template file.  This sample author template includes some common \LaTeXe formatting examples and the ASP author checklist.
+\end{abstract}
+
+\section{The Template}
+To fill in this template, make sure that you read and follow the ASPCS Instructions for Authors and Editors available for download online.\footnote{Most URLs should be in a footnote like this one.  In this case, you can download the online material from \url{http://www.aspbooks.org}.}  Further hints and tips for including graphics, tables, citations, and other formatting helps are available there.
+
+\subsection{The Author Checklist}
+The following checklist should be followed when writing a submission to a conference proceedings to be published by the ASP.
+
+\begin{itemize}
+\checklistitemize
+\item Article is within page limitations set by editor. 
+\item Paper compiles properly without errors or warnings.
+\item No fundamental modifications to the basic template are present, including special definitions, special macros, packages, \verb"\vspace" commands, font adjustments, etc. %(§ 3.3, p. 10)
+\item Commented-out text has been removed. %(§ 3.3, p. 10,11)
+\item Author and shortened title running heads are proper for the paper and shortened so page number is within the margin. %(§ 3.1, p. 4)
+\item Paper checked for general questions of format and style, including, but not limited to, the following:
+\begin{itemize}
+  \item capitalization, layout, and length of running heads, titles  and \\sections/subsections;  % (§ 3.1, p. 4) (§ 3.2, p. 5) (§ 3.3, p. 8)
+  \item page numbers within margin; % (§ 3.1, p. 4)
+  \item author names spelled correctly and full postal addresses given; % (§ 3.2, p. 5-6)
+  \item abstracts; % (§ 3.2, p. 7);
+  \item all margins---left, right, top and bottom; % (§3.1, p. 4; §3.2, p. 5; §3.3, p. 9; §3.6, p. 21);
+  \item standard font size and no Type 3 fonts; %(§ 3.3, pp. 10-11; § 3.6, p. 23; § 4.2, p. 25);
+  \item spacing; % (§ 3.3, pp. 9-10);
+  \item section headings. % (§ 3.3; p. 8).
+\end{itemize}
+\item All tables are correctly positioned within margins, are properly formatted, and are referred to in the text.  %(§ 3.5, pp. 16-20)
+\item All figures are correctly positioned within margins, are minimum 300 dpi resolution, not too dark or too light, do not contain embedded fonts, and are referred to in the text.  All labeling or text will be legible with 10\% reduction.  Questionable images printed, checked, and replaced if necessary.  Figures do not cover text or running heads, and proper permissions have been granted and acknowledged.  For ease of integration and to minimize the size of the figure files, it is highly recommended that `eps' files not be used in favor of `png' or `jpg' image files.  %(§ 3.6, pp. 21-24)
+\item All acknowledgments and discussions are in proper format.  % (pp. 11-12, p. 20)
+\item If there are acknowledgments at the end of the article, ensure that the author has used
+the \verb"\acknowledgments" command and not the commands
+\\ \verb"\begin{Acknowledgments}", \verb"\end{Acknowledgments}".
+Acknowledgments should only be used for thanking institutions,
+groups, and individuals who have directly contributed to the work.
+\item All references quoted in the text are listed in the bibliography; all items in the bibliography have been referred to in the text.  % (§ 4, pp. 24-28)
+\item All bibliography entries are in the proper format, using one of the referencing styles given. Each of the references is bibliographically complete, including full names of authors, editors, publishers, place of publication, page numbers, years, etc.  If using Bib\TeX\, a complete Bib\TeX\ file is ready to submit to the editor. % (§§ 4.2-4.3, pp. 25-28)
+\item References to preprints replaced with publication information when possible.
+\end{itemize}
+
+\section{Compiling}
+It is highly recommended that all figures be non-`eps' format, i.e., `png' or `jpg.'  For this case, compiling this article is done simply by using the command \texttt{pdflatex} at least twice on the command line from inside the same folder as the article LaTeX `.tex' file.  If there are references to `eps' image files, pdfLaTeX will not work, and the images should be converted to a non-`eps' type of image file format.
+
+\section{Text}
+Sometimes you just need to have different styles of fonts.  \emph{Sometimes you just need to have different styles of fonts.} \textbf{Sometimes you just need to have different styles of fonts.}
+
+Sometimes you just need to have different sizes of fonts.  {\small Sometimes you just need to have different sizes of fonts.} {\footnotesize Sometimes you just need to have different sizes of fonts.}  It would be very rare to require larger fonts within an ASP volume.
+
+\section{Math}
+Sometimes authors include formulas inside the main text which should always be enclosed within \$ signs.  Look at the Pythagorean Formula $a^2 + b^2 = c^2$.
+
+Sometimes authors include formulas on their own lines.  This example uses the \verb"displaymath" environment which does not include an equation number.  To include an equation number, use the \verb"equation" environment.
+\begin{displaymath}
+c = \sqrt{a^2 + b^2} \qquad \textrm{Pythagorean Theorem}
+\end{displaymath}
+
+\section{Lists}
+\label{ex_lists}
+There are a lot of ways to make lists including itemized lists with bullets (\verb"\begin{itemize}"), numbered lists (\verb"\begin{enumerate}"), and description lists (\verb"\begin{description}").  This is an example of an itemized list.
+
+\subsection{Itemized Lists}
+Here is an itemized list:
+\begin{itemize}
+\item Item 1
+\item Item 2
+\end{itemize}
+
+\section{Table}
+Here is an example table that has three colums with various justification and row spacing.
+
+\begin{table}[!h]
+\caption{Tables in \LaTeXe}
+\smallskip
+\begin{center}
+{\small
+\begin{tabular}{llc}  % l = left, c = centered
+\tableline
+\noalign{\smallskip}
+First Column & Second Column & Third Column:\\
+\noalign{\smallskip}
+\tableline
+\noalign{\smallskip}
+First Row, First Column & First Row, Second Column & First Row, Third Column \\
+Second Row, First Column & Second Row, Second Column & Second Row, Third Column \\
+Third Row, First Column & Third Row, Second Column & Third Row, Third Column \\
+\noalign{\smallskip}
+\tableline % Sometimes you just need a line between table rows
+\end{tabular}
+}
+\end{center}
+\noindent These tables can get a little messy, but this format is the most common.
+\end{table}
+
+\section{Images}
+For some figures, see Figures \ref{ex_fig1}- \ref{ex_fig2}.  These figures have been converted to the `png' image format.  Notice that the references to the figures do not need to include the file extension and that the pdfLaTeX compiler recognizes the non-`eps' image files.
+
+\articlefigure[width=0.65\textwidth]{example_image}{ex_fig1}{Welcome to 1953.  Size adjusted to be a little smaller than full.}
+% It is possible to reduce the size of a figure among other changes (see the instructions).  Here is an example:
+% \articlefigure[width=.5\textwidth]{example_image}{ex_fig1_reduced}{Welcome to 1953 a little smaller.}
+
+\articlefiguretwo{example_image}{example_image}{ex_fig2}{Now there are two of them.  \emph{Left:} An image from long ago.  \emph{Right:} The same exact thing.}
+
+% There is a figure command allowing for three figures:
+% \articlefigurethree{example_image}{example_image}{example_image}{ex_fig1_triple}{Now there are three of them.}
+
+% There is a figure command allowing for four figures:
+% \articlefigurefour{example_image}{example_image}{example_image}{example_image}{ex_fig3}{Now four of them?}
+
+\clearpage % To force this stuff to happen by this point in the text, otherwise these will probably end up after the references.
+
+There are also the landscape versions \texttt{\textbackslash articlelandscapefigure} and other image commands that are further described in the instructions.
+
+\acknowledgements The ASP would like to the thank the dedicated researchers who are publishing with the ASP.  Keep this text on the same line as the \verb"\acknowledgements" command because it makes things a lot easier.
+
+%\bibliography{editor}  % For BibTex
+
+% For non-BibTex:
+\begin{thebibliography}{}
+\bibitem[Barnes(2008)]{ex_1}  % It may help to have no space between the author and the year in parentheses
+The first reference.  This reference may span the width of the page and should be in the format described in the instructions.
+\bibitem[Barnes(2009)]{ex_2}
+The second reference.  This reference may also span the width of the page and should be in the format described in the instructions.
+\bibitem[Barnes(2010)]{ex_3}
+The third reference.  If there is a URL in here make sure to put it in the right way.\\
+See {\footnotesize \url{http://www.somewhere.com/see_there's%still_characters_here}}
+\end{thebibliography}
+
+\end{document}
