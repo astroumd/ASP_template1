@@ -58,11 +58,21 @@ this repo, e.g.
 
 and in overleaf.com
 
-    New Project -> Upload Project -> Selet a .zip file
+     New Project -> Upload Project -> Select a .zip file
 
+Unless making a small modifications, my normal own workflow will grab a **git** version
+of the overleaf repo:
+
+     Menu -> Git
+
+after which the uniq URL can be copied locally to your laptop
+
+     git clone https://git.overleaf.com/6508854af54fe71911206296 MyPaper
 
 
 ## modifications from the ASP distribution
 
+- converted CRLF files to proper unix files
 - added a main.tex and main.bib with a UMD example to simplify your morphing
 - added a Makefile, so "make" should do the job of creating the main.pdf file
+- removed the ASPCS-MSWord-template.doc
