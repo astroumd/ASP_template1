@@ -1,8 +1,6 @@
 #
 
-
-
-FIGS = disk_geom.png
+#   add your figures here, if you have any
 FIGS = 
 
 pdf: main.pdf
