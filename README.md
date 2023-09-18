@@ -16,6 +16,10 @@ An example paper by a UMD Astronomy student:
 
       http://www.aspbooks.org/publications/525/057.pdf
 
+which in ADS will show up as
+
+      https://ui.adsabs.harvard.edu/abs/2020ASPC..525...57H
+
 
 The Astronomical Society of the Pacific Conference Series is now
 publishing a free online volume of undergraduate student research
@@ -38,8 +42,8 @@ any students you are working with.
 
      Makefile                - useful outside of overleaf
      README.md               - this file
-     aasjournal.bst          - bib style fyle
-     asp2021.bst             - [still missing, use aasjournal]
+     aasjournal.bst          - backup bib style style
+     asp2021.bst             - official bib style style
      asp2021.sty             - old style, for historic purposes
      asp2023.sty             - new style
      aspauthor.tex           - original ASP
@@ -76,4 +80,4 @@ after which the uniq URL can be copied locally to your laptop
 - converted CRLF files to proper unix files
 - added a main.tex and main.bib with a UMD example to simplify your morphing
 - added a Makefile, so "make" should do the job of creating the main.pdf file
-- removed the ASPCS-MSWord-template.doc
+- removed the ASPCS-MSWord-template.doc as this workflow is latex (overleaf) based.
