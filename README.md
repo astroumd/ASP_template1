@@ -36,16 +36,17 @@ any students you are working with.
 
 # Files:
 
-     Makefile
-     README.astroumd
-     aasjournal.bst
-     asp2021.sty
-     asp2023.sty
-     aspauthor.tex
-     copyrightform.doc
-     main.bib
-     main.tex
-     plot1.png [iff]
+     Makefile                - useful outside of overleaf
+     README.md               - this file
+     aasjournal.bst          - bib style fyle
+     asp2021.bst             - [still missing, use aasjournal]
+     asp2021.sty             - old style, for historic purposes
+     asp2023.sty             - new style
+     aspauthor.tex           - original ASP
+     copyrightform.doc       - original ASP
+     main.bib                - example bib entries
+     main.tex                - example UMD style  (edit this one)
+     pyplot.png              - example plot
 
 
 ## How to bootstrap on overleaf
