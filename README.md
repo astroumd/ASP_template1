@@ -52,10 +52,10 @@ any students you are working with.
      pyplot.png              - example plot
 
 
-## How to bootstrap on overleaf
+## How to Bootstrap on Overleaf
 
 You can of course upload the files mentioned here, but my personal preference is
-to create an template "new project" on overleaf, then grab the zip file from
+to create an empty "new project" on overleaf, then grab the zip file from
 this repo, e.g.
 
      wget https://github.com/astroumd/ASP_template1/archive/refs/heads/main.zip
@@ -64,14 +64,17 @@ and in overleaf.com
 
      New Project -> Upload Project -> Select a .zip file
 
-Unless making a small modifications, my normal own workflow will grab a **git** version
-of the overleaf repo:
+Unless making small modifications, my normal own workflow will grab a **git** version
+from overleaf, and I work on the laptop. Here is how you get the secret overleaf link:
 
      Menu -> Git
 
-after which the uniq URL can be cloned locally to your laptop, for example
+after which this uniq URL can be cloned locally to your laptop, for example
 
      git clone https://git.overleaf.com/6508854af54fe71911206296 MyPaper
+
+After this the normal *git commit/git push* will keep your laptop version
+in sync with overleaf.
 
 
 ## modifications from the ASP distribution
