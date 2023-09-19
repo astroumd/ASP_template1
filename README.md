@@ -69,7 +69,7 @@ of the overleaf repo:
 
      Menu -> Git
 
-after which the uniq URL can be copied locally to your laptop, for example
+after which the uniq URL can be cloned locally to your laptop, for example
 
      git clone https://git.overleaf.com/6508854af54fe71911206296 MyPaper
 
