@@ -37,7 +37,7 @@ short paper seems like an excellent ending for a summer or
 semester-long research project, so I strongly you to consider this for
 any students you are working with.
 
-# Files:
+## Files:
 
      Makefile                - useful outside of overleaf
      README.md               - this file
@@ -80,3 +80,8 @@ after which the uniq URL can be copied locally to your laptop, for example
 - added a main.tex and main.bib with a UMD example to simplify your morphing
 - added a Makefile, so "make" should do the job of creating the main.pdf file
 - removed the ASPCS-MSWord-template.doc as this workflow is latex (overleaf) based.
+
+
+## Contact:
+
+Contact:  Melissa Hayes-Gehrke <mhayesge@umd.edu>
