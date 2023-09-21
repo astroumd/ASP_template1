@@ -1,6 +1,7 @@
 # ASP template1
 
-These files can be used to get you quickly started on overleaf.
+This project can be used to get you quickly started on overleaf with
+a paper submitted to ASP.
 
 ## Background
 
@@ -10,7 +11,7 @@ semester, I'd like to encourage you to consider having them write up
 their results to publish in the ASP's "Compendium of Undergraduate
 Research in Astronomy and Space Science", which is free and
 online-only.  Writing the paper would be great experience for
-students.  Please see my email below for more information.
+students.
 
 An example paper by a UMD Astronomy student:
 
@@ -19,8 +20,9 @@ An example paper by a UMD Astronomy student:
 which in ADS will show up as
 https://ui.adsabs.harvard.edu/abs/2020ASPC..525...57H
 
+## ASP
 
-The Astronomical Society of the Pacific Conference Series is now
+The Astronomical Society of the Pacific Conference Series (ASPCS) is now
 publishing a free online volume of undergraduate student research
 called "Compendium of Undergraduate Research in Astronomy and Space
 Science". The 4 - 6 page papers are written by undergrad researchers
